@@ -1,5 +1,5 @@
 echo "backup!"
-find . -maxdepth 0 -name "*.c" -exec mv {} ./backup \;
+find . -maxdepth 1 -name "*.c" -exec mv {} ./backup \;
 
 echo "nth project?"
 read n
